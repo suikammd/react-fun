@@ -1,9 +1,9 @@
-import './App.css';
-import './components/Search'
-import SearchCountries from './components/Search';
+import "./App.css";
+import "./components/Search";
+import SearchCountries from "./components/Search";
 
 const App = () => {
-  return <SearchCountries />
-}
+  return <SearchCountries />;
+};
 
 export default App;
