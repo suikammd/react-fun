@@ -1,3 +1,4 @@
+import Country from './Courty'
 import './Detail'
 import Detail from './Detail'
 
@@ -18,7 +19,7 @@ const Display = ({display, keyword}) => {
         return <Detail country={display[0]}/>
     }
     return <>
-            {display.map((item) => <p key={item.name}>{item.name}</p>)}
+            {display.map((item) => <Country key={item.name} country={item}/>)}
         </>
 }
 

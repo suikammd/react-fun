@@ -1,5 +1,3 @@
-import { useEffect } from "react"
-
 const Detail = ({country}) => {
     console.log(country)
     return <>
@@ -10,7 +8,7 @@ const Detail = ({country}) => {
         <ul>
             {country.languages.map((language) => <li key={language.name}>{language.name}</li>)}
         </ul>
-        <img src={country.flag} style={{width: 200, height: 200}}/>
+        <img alt='' src={country.flag} style={{width: 200, height: 200}}/>
     </>
 }
 
