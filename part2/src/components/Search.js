@@ -7,7 +7,6 @@ const SearchCountries = () => {
   const [display, setDisplay] = useState([]);
 
   const handleKeywordChange = (event) => {
-    console.log(event.target.value);
     setKeyword(event.target.value);
   };
 
@@ -19,7 +18,6 @@ const SearchCountries = () => {
     axios
       .get(url)
       .then((response) => {
-        console.log(response.data);
         setDisplay(response.data);
       })
       .catch((error) => {

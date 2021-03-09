@@ -21,3 +21,6 @@
 ./part2/npm-debug.log*
 ./part2/yarn-debug.log*
 ./part2/yarn-error.log*
+
+# env
+./part2/.env
