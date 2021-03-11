@@ -4,12 +4,17 @@
 ./part2/node_modules
 ./part2/.pnp
 ./part2/.pnp.js
+./notes/node_modules
+./notes/.pnp
+./notes/.pnp.js
 
 # testing
 ./part2/coverage
+./notes/coverage
 
 # production
 ./part2/build
+./notes/build
 
 # misc
 ./part2/.DS_Store
@@ -22,5 +27,16 @@
 ./part2/yarn-debug.log*
 ./part2/yarn-error.log*
 
+./notes/.DS_Store
+./notes/.env.local
+./notes/.env.development.local
+./notes/.env.test.local
+./notes/.env.production.local
+
+./notes/npm-debug.log*
+./notes/yarn-debug.log*
+./notes/yarn-error.log*
+
 # env
 ./part2/.env
+./notes/.env
